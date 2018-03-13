@@ -1,0 +1,41 @@
+/* sectionBox.css */
+/*contentpage_02 - 대회*/
+
+/* 전체 */
+#sectionBox{width: 100%; min-width: 960px; height: auto;min-height: 860px;  
+background-image:#fff;
+padding: 100px; box-sizing: border-box;}
+
+/*대회사진 +대회정보 start*/
+#sectionArea{width: 960px; height: auto; background-color: #fff; margin: 0 auto;
+padding: 20px;}
+
+.section_wrap_01{width: 100%;height: 100%; padding: 10px; margin-bottom: 20px;}
+.section_wrap_01>h3{width: 100%;height: 35px; font-size: 24px; 
+margin-bottom: 10px;}
+.section_wrap_01 ul{width: 100%; height: 100%;}
+.section_wrap_01>div>a>span{width: 120px; height: 30px; float: left; margin-right: 10px;
+text-align: center;line-height: 30px;
+margin-bottom: 10px;}
+a, span{display: block; width: 100%;}
+.section_wrap_01>div>a>span{display: block;width: 100%;}
+.section_wrap_01>div>a>span:hover{background-color: #ccc; font-weight: bold;}
+.section_wrap_01>div>a>span:first-letter{text-transform: uppercase;}
+
+.section_wrap_01 img{width: 100%; height: auto;}
+
+
+
+.section_wrap_02{width: 100%;height: 100%;box-sizing: border-box; padding: 10px;}
+.section_wrap_02>h3{width: 100%;height: 35px; font-size: 24px;  font-weight: bold;
+box-sizing: border-box;margin-bottom: 10px;}
+
+.section_wrap_02>div{width: 100%;height: 100%;  padding: 10px; margin-bottom: 20px;}
+.section_wrap_02>div>img{width:40%;height:auto;float: left;}
+.section_wrap_02>div>dl{width: 350px;height: 200px; float:left;margin-left: 20px;}
+.section_wrap_02>div>dl>dt{width: 350px;height: 25px; font-size: 24px; font-weight: bold; margin-bottom: 60px;}
+.section_wrap_02>div>dl>dd{width: 350px;height: auto;}
+.strong{font-weight: bold;}
+.section_wrap_02>div>button{width:100px;height: 25px; float: right;margin-top: 13%;}
+.section_wrap_02>div>button:hover{/*text-decoration: underline;*/color:#d07;}
+

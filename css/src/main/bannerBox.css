@@ -1,0 +1,41 @@
+/* bannerBox.css */
+/* commonPage */
+
+/*bannerBox */
+#bannerBox{width: 100%;,min-width:960px; height: auto;margin: 0 auto;}
+
+.banimg_area{width: 100%;height: 100%; position: relative;}
+/* banner img start */
+.banimg_area>li:nth-child(1){width: 100%; min-width:960px; height:600px;
+                background-image: url(../../../img/sectionbanner.jpg);
+                background-repeat:no-repeat;
+                background-position:center 50%;
+                background-size: 100% auto;
+                background-attachment:scroll;
+                              }
+/* banner img end // */
+
+/*banner button start*/
+
+/* btn common css */
+.banner_btn{width: 100%;height: 100%;}
+.banner_btn button{width: 40px;height: 60px; position: absolute; top: 80%;
+background-color: transparent;}
+
+/* Left btn */
+.b_left_btn{left: 40%;  margin-left: -30vw;
+background-image: url(../../../img/b_left.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+.b_left_btn:hover{background-image: url(../../../img/b_left_hover.png);
+}
+
+/* right btn */
+.b_right_btn{right: 40%; margin-right:-30vw;
+background-image: url(../../../img/b_right.png);
+background-repeat: no-repeat;
+background-position: center;
+}
+.b_right_btn:hover{background-image: url(../../../img/b_right_hover.png);
+}

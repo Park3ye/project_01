@@ -1,0 +1,78 @@
+/*articleBox.css*/
+/*contentpage_04 프로그램*/
+
+/*여기서 가장 큰 Wrap*/
+#articleBox{width: 100%; min-width: 960px; height: auto;min-height: 860px;padding: 100px; box-sizing: border-box;}
+
+/*Start !*/
+
+#articleArea{width: 960px; height: auto; background-color: #fff; margin: 0 auto;
+padding: 20px; box-sizing: border-box;}
+
+/*article wrap 01 start*/
+.article_wrap_01{width: 100%;height: 100%;
+  padding: 10px; margin-bottom: 20px;}
+/*개썰매 캠프란 ?*/
+.article_wrap_01 span{display: block;width: 100%; height:auto; 
+  font-size: 24px;font-weight: bold;box-sizing: border-box; margin-bottom: 60px;text-align: center;}
+
+/*.dss_camp : 개썰매캠프란? + text + img wrap*/
+.dss_camp{width: 100%;height: 100%; margin-bottom: 300px; }
+/*dds camp Text*/
+.dss_camp div>div{width:500px;height:429px;float: left; overflow:hidden;
+font-size: 18px;}
+/*dds camp 광고 포스터 img*/
+.dss_camp div>a>img{width:40%; height: auto;float: right;
+background-position:center;
+background-size: cover;}
+/*article wrap 01 end--------------------------------*/
+
+
+/* article wrap 02 start ! */
+  .article_wrap_02{width: 100%;height: 100%; padding: 10px;margin-bottom: 300px;}
+  /* 프로그램 소개 제목*/
+#artTitle{ text-align: center;font-size: 24px;margin-bottom: 50px;}
+
+/*sub_title : 개썰매체험 , 친화력강화훈련, 이색눈썰매 체험 , 어린이단 선수소개 */
+.article_wrap_02 span{ display: block;width: 100%; height:auto; margin-bottom: 40px;text-align: center;font-size: 20px;}
+
+/* imgBox wrap + box 4개 size*/
+.wrap_02_area{width: 100%;height: 100%;}
+.wrap_02_area li {width: 49%;height:48.3%; float: left;box-sizing: border-box;margin: 0 2% 2% 0;padding: 10px;}
+.wrap_02_area li:nth-child(2){margin-right: 0;}
+.wrap_02_area li:nth-child(3){margin-bottom:0;}
+.wrap_02_area li:nth-child(4){margin-right: 0; margin-bottom: 0;}
+
+.sponser a img{width: 100%;height: 88%;}/*이미지 사이즈*/
+/*article wrap 02  end --------------*/
+
+
+/*article wrap 03 start ! */
+/*wrap_03 : clearfix  */
+.article_wrap_03{width: 100%;height: 100%;}
+
+/*좌측 캠프신청조건 박스*/
+
+/*left wrap size*/
+.left_wrap{width: 60%; height:auto; float: left;
+           margin-bottom: 100px;}
+/*span : 캠프신청조건 제목 */
+.left_wrap span{display: block;width: 100%;height:auto;float: left;font-weight: bold;font-size: 24px;
+text-align: center;margin-bottom: 30px;}
+/*캠프신청조건 설명 text*/
+.left_wrap div{width: 100%;height:auto; float: left;  overflow:hidden; padding: 20px; box-sizing: border-box;}
+/*대회신청 버튼*/
+.left_wrap button{width:100px;height:auto; margin-bottom: 30px;
+background-color: transparent;}
+/*버튼에 hover 기능 */
+.left_wrap button:hover{font-weight: bold;}
+
+/*우측 지난캠프사진 박스 */
+.right_wrap{width: 38%; height:auto;float: right;
+box-sizing: border-box;margin-bottom: 30px;}
+/*지낸캠프사진 title*/
+.right_wrap>span{width: 100%;display: block;font-weight: bold; font-size:24px; text-align: center;}
+/*캠프 이미지 */
+.right_wrap>a>img{width: 100%;height: auto;margin-top:90px;}
+
+

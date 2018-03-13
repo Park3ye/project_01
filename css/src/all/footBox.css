@@ -1,0 +1,38 @@
+/* footBox.css */
+/*commonPage*/
+
+#footBox{width: 100%;min-width:960px; height: auto;}
+/* footbox의 배경이미지  */
+.foot_bgi{min-width: 960px; width: 100%; height:400px;
+        background-image: url(../../../img/footer.jpg);
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:100% auto;
+        background-attachment: fixed;
+        position: relative;}
+        /* 배경 끝! */
+
+        /*footer의 Info Tap start*/
+.foot_info        {width:100%;height:auto;position:absolute;
+                   left: 85%;top:60%; text-align: right;
+                   color:#fff;}
+.foot_info h3     {width: 200px;height:30px;font-size: 28px; 
+                  margin-bottom: 20px;}
+.foot_info ul li  {width: 200px; height: 25px;font-size:18px;}
+.foot_info ul li a{display: block;width: 100%; }
+        /*footer Info end ----*/
+
+
+/*footer의 address start*/
+.address_area{width:700px; height: auto;position:absolute;
+              left: 4%; top: 60%; text-align:left;
+              color:#fff;}
+.address_area h3{width: 200px;height: 30px; font-size: 28px;
+                 margin-bottom: 20px;}
+.address_area ul li{width: auto; height: 25px;font-size: 18px;}
+.address_area ul li a{display: block;width: 100%;}
+.cp_wrap{width: 100%;height: 100%; padding:20px;box-sizing: border-box;}
+.cp_right{display: block;width: 100%; height: 30px; text-align: center; margin-top: 15px; font-size: 18px;}
+/* footer of address end~! */
+
+

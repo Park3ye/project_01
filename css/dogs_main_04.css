@@ -1,0 +1,9 @@
+/*dogs_main_04.css*/
+
+@import url('./src/all/wrap.css');
+@import url('./src/all/headBox.css');
+@import url('./src/main/bannerBox.css');
+@import url('./src/main/articleBox.css');
+@import url('./src/all/footBox.css');
+
+

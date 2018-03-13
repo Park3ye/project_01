@@ -1,0 +1,38 @@
+/* lnbBox.css */
+/* contentpage_01 소개 */
+
+#lnbBox{width: 100%; min-width: 960px; height: auto;
+   min-height: 860px; background-image:#fff;padding: 100px; 
+   box-sizing: border-box;position:relative;}
+
+   /* 소개 + 조직도박스 css start! */
+#lnbArea{width: 960px; height: auto; background-color: #fff; 
+         margin: 0 auto;padding: 20px;box-sizing: border-box;}
+/* lnb_wrap_01 start*/
+.lnbwrap{width: 100%; height: 100%; 
+         box-sizing: border-box;padding: 10px; margin-bottom: 20px;}
+/* 소개 title*/
+.lnbwrap>span{display: block;width: 100%; height: 35px; 
+         font-size: 24px;font-weight: bold; line-height: 40px; 
+         box-sizing: border-box;margin-bottom: 100px;text-align: center;}
+/* 소개하는 본문  */
+.lnbwrap>p{display: block;font-size:20px;width: 50%;height: 100%; float: right;
+}
+/* 소개 img */
+.lnbwrap>img{float: left;width: 40%; height: 100%;margin-right: 20px;}
+/*lnb_wrap_01 end*/
+
+
+/* lnb_wrap_02 start*/
+.lnb_wrap_02{width: 100%;height: 100%;
+            box-sizing: border-box; padding: 10px;}
+/* 조직도 title*/
+.lnb_wrap_02>span{display: block;width: 100%; height: 35px; 
+            font-size: 24px;font-weight: bold; line-height: 40px; 
+            box-sizing: border-box;margin-bottom: 80px;
+            text-align: center;margin-top: 100px;}
+/* 조직도 img */
+.lnb_wrap_02>img{width: 100%; height: 100%; margin: 0 auto;}
+/* lnb_wrap_02 end */
+
+
